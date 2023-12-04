@@ -1,0 +1,4 @@
+#Wed Nov 29 20:01:21 BRT 2023
+base.0=C\:\\Users\\jpnathan\\Documents\\projetos meus\\Project-Nyx\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

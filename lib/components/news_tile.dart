@@ -20,17 +20,17 @@ class NewsTile extends StatelessWidget {
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.2), // Cor da sombra
-            spreadRadius: 2, // Raio de propagação da sombra
-            blurRadius: 5, // Raio de desfoque da sombra
+            spreadRadius: 2, 
+            blurRadius: 5, 
             offset:
-                Offset(0, 3), // Deslocamento da sombra (horizontal, vertical)
+                Offset(0, 3), 
           ),
         ],
       ),
       child: Row(
         children: [
           SizedBox(
-              width: 20), // Adicione um espaçamento entre a imagem e o texto
+              width: 20),
 
           Image.asset(
             news.imagePath,
@@ -38,7 +38,7 @@ class NewsTile extends StatelessWidget {
             width: 70,
           ),
           SizedBox(
-              width: 20), // Adicione um espaçamento entre a imagem e o texto
+              width: 20), 
 
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,

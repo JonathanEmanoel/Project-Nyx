@@ -74,7 +74,7 @@ class _MainPageState extends State<MainPage> {
                   RoundedRectangleBorder(
                     side: BorderSide(color: Colors.black, width: 2.0),
                     borderRadius: BorderRadius.circular(
-                        20.0), // Ajuste conforme necessário
+                        20.0), 
                   ),
                 ),
               ),
