@@ -12,7 +12,7 @@ class _Tutorial3 extends State<Tutorial3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MainColor.primaryColor,
+        backgroundColor: MainColor.accentColor,
         body: Padding(
           padding: const EdgeInsets.all(4.5),
           child: Center(
@@ -26,7 +26,7 @@ class _Tutorial3 extends State<Tutorial3> {
               ),
             ),
             const Text(
-              'No mapa você encontrará a delegacia da mulher, ongs\ne centros de apoio mais proximos de você.\n',
+              'No mapa você encontrará a delegacia da mulher mais proxima de voce ',
               style: TextStyle(
                 fontSize: 17.0,
                 color: Colors.black,
@@ -34,7 +34,7 @@ class _Tutorial3 extends State<Tutorial3> {
             ),
             Expanded(
                 child: Image.asset(
-              'assets/images/Localizaçao.png',
+              'assets/images/local.png',
               height: 300.0,
               width: 300.0,
             )),

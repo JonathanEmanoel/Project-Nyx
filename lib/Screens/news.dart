@@ -8,14 +8,14 @@ class News_page extends StatelessWidget {
       title:
           "Mulher vítima de violência\ndoméstica liga para a polícia\nfingindo pedir hambúrguer\nem MG",
       descrition:
-          "Vítima estaria sendo agredida e\nameaçada pelo marido há pelo\nmenos 14 anos; suspeito tentou\nresistir à prisão ",
+          "Vítima estaria sendo agredida e\nameaçada pelo marido há pelo\nmenos 14 anos; suspeito tentou\nresistir à prisão",
       imagePath: "assets/images/Hamburguer.png",
     ),
     News(
       title:
           "Mulher vítima de violência\ndoméstica liga para a polícia\nfingindo pedir hambúrguer\nem MG",
       descrition:
-          "Vítima estaria sendo agredida e\nameaçada pelo marido há pelo\nmenos 14 anos; suspeito tentou\nresistir à prisão ",
+          "Vítima estaria sendo agredida e ameaçada pelo marido há pelo\nmenos 14 anos; suspeito tentou\nresistir à prisão ",
       imagePath: "assets/images/Hamburguer.png",
     ),
     News(
@@ -44,7 +44,6 @@ class News_page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -89,9 +88,11 @@ class News_page extends StatelessWidget {
               IconButton(
                 icon: Icon(Icons.home, color: Colors.grey),
                 iconSize: 30.0,
-                onPressed: () { Navigator.of(context).pushNamed(
+                onPressed: () {
+                  Navigator.of(context).pushNamed(
                     '/home1',
-                  );},
+                  );
+                },
               ),
               IconButton(
                 icon: Icon(

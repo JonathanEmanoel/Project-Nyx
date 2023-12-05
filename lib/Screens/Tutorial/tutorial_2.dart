@@ -12,18 +12,21 @@ class _Tutorial2 extends State<Tutorial2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MainColor.primaryColor,
+        backgroundColor: MainColor.accentColor,
         body: Padding(
           padding: const EdgeInsets.all(4.5),
           child: Center(
               child: Column(children: [
-            const SizedBox(height: 30.0),
+            const SizedBox(height: 50.0),
             const Text(
               'Botão de Emergencia:',
               style: TextStyle(
                 fontSize: 20.0,
                 color: Colors.black,
               ),
+            ),
+            SizedBox(
+              height: 20,
             ),
             const Text(
               'O botão de emergência estará sempre disponível em\nqualquer tela após o cadastro no aplicativo. Ao\npressionar e segurar o botão, seu endereço será\nenviado automaticamente para a delegacia da\nmulher via WhatsApp. Isso garantirá que, em\nsituações de emergência, a ajuda chegue o mais\nrápido possível e de maneira discreta.\nAlém disso, ao dar um clique rápido no botão, será\npossível solicitar socorro a terceiros, fornecendo\ninformações sobre o nível de emergência, se a vítima\nestá sozinha ou acompanhada, e quem é a vítima.\n',
@@ -34,7 +37,7 @@ class _Tutorial2 extends State<Tutorial2> {
             ),
             Expanded(
                 child: Image.asset(
-              'assets/images/logoG - red.png',
+              'assets/images/logoNova.png',
             )),
             Expanded(
                 child: Image.asset(

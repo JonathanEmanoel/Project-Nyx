@@ -117,7 +117,7 @@ class _UserState extends State<User> {
           ),
         ],
       ),
-      extendBodyBehindAppBar: true, // Adicionando extendBodyBehindAppBar
+      extendBodyBehindAppBar: true, 
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

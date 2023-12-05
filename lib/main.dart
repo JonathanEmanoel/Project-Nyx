@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:projeto_nyx/Screens/erro.dart';
 import '../Screens/home_page.dart';
 import '../Screens/locator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -14,7 +15,6 @@ import '../Screens/Tutorial/tutorial_1.dart';
 import '../Screens/Tutorial/tutorial_2.dart';
 import '../Screens/Tutorial/tutorial_3.dart';
 import '../Screens/user_page.dart';
-
 
 void main() {
   runApp(const MyApp());
@@ -34,21 +34,21 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-       home: User(),
+      home: Erro(),
 
-     // navigatorObservers: const [],
-    //  initialRoute: '/',
-     // routes: {
-     //   '/': (context) => const SplashPage(),
-   //     '/main': (context) => MainPage(),
-    //    //  '/register': (context) => const RegisterPage(),
-    //    '/tutorial1': (context) => const Tutorial1(),
-     //   '/tutorial2': (context) => const Tutorial2(),//
-     //   '/tutorial3': (context) => const Tutorial3(),
-     //   '/home1': (context) => Home(),
-     //   '/map': (context) => const MapSample(),
-     //   '/new': (context) => News_page(),
-    //  },
+      // navigatorObservers: const [],
+      //  initialRoute: '/',
+      // routes: {
+      //   '/': (context) => const SplashPage(),
+      //     '/main': (context) => MainPage(),
+      //    //  '/register': (context) => const RegisterPage(),
+      //    '/tutorial1': (context) => const Tutorial1(),
+      //   '/tutorial2': (context) => const Tutorial2(),//
+      //   '/tutorial3': (context) => const Tutorial3(),
+      //   '/home1': (context) => Home(),
+      //   '/map': (context) => const MapSample(),
+      //   '/new': (context) => News_page(),
+      //  },
     );
   }
 }
