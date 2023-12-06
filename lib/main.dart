@@ -15,6 +15,7 @@ import '../Screens/Tutorial/tutorial_1.dart';
 import '../Screens/Tutorial/tutorial_2.dart';
 import '../Screens/Tutorial/tutorial_3.dart';
 import '../Screens/user_page.dart';
+import '../Screens/erro.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: Erro(),
+      home: NoticiasScreen(),
 
       // navigatorObservers: const [],
       //  initialRoute: '/',
@@ -48,6 +49,8 @@ class MyApp extends StatelessWidget {
       //   '/home1': (context) => Home(),
       //   '/map': (context) => const MapSample(),
       //   '/new': (context) => News_page(),
+      //   '/erro': (context) => Erro(),
+      // '/user': (context) => User(),
       //  },
     );
   }

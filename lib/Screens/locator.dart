@@ -82,8 +82,8 @@ class Locator {
           'https://www.google.com/maps/place/Secretaria+Executiva+da+Mulher+do+Cabo/@-8.2836783,-35.0713005,14z/data=!4m10!1m2!2m1!1sdelegacia+da+mulher+em+cabo+de+santo+agostinho!3m6!1s0x7aaef0bdb741387:0x8bcab0cddb4c24d9!8m2!3d-8.2836783!4d-35.0331917!15sCi5kZWxlZ2FjaWEgZGEgbXVsaGVyIGVtIGNhYm8gZGUgc2FudG8gYWdvc3RpbmhvkgEZd29tZW5zX3Byb3RlY3Rpb25fc2VydmljZeABAA!16s%2Fg%2F11r7yny82d?entry=ttu');
       addMarker('olinda', -7.9827542212229705, -34.83827428416611,
           ' https://www.google.com/maps/place/Delegacia+da+mulher+de+Olinda/@-7.9842842,-34.9910529,12z/data=!4m10!1m2!2m1!1sdelegacia+da+mulher+em+Moreno!3m6!1s0x7ab3d8616010019:0x116e2664195fa57!8m2!3d-7.9842842!4d-34.8386176!15sCh1kZWxlZ2FjaWEgZGEgbXVsaGVyIGVtIE1vcmVub5IBE3NoZXJpZmZzX2RlcGFydG1lbnTgAQA!16s%2Fg%2F11t7f9fs51?entry=ttu');
-          addMarker('igarassu', -7.824294372377158,  -34.90887141621114, 'https://www.google.com/maps/place/Vara+de+Viol%C3%AAncia+Dom%C3%A9stica+e+Familiar+contra+a+Mulher+da+Comarca+de+Igarassu/@-7.8626344,-34.9451504,13.31z/data=!4m10!1m2!2m1!1sdelegacia+da+mulher+em+igarassu!3m6!1s0x7ab6b1c4e570d89:0x8508c468b3e7fb0d!8m2!3d-7.826562!4d-34.9095895!15sCh9kZWxlZ2FjaWEgZGEgbXVsaGVyIGVtIGlnYXJhc3N1WiEiH2RlbGVnYWNpYSBkYSBtdWxoZXIgZW0gaWdhcmFzc3WSARl3b21lbnNfcHJvdGVjdGlvbl9zZXJ2aWNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIxY2w5aFgzZFJSUkFC4AEA!16s%2Fg%2F11b6xdnccl?entry=ttu'
-);
+      addMarker('igarassu', -7.824294372377158, -34.90887141621114,
+          'https://www.google.com/maps/place/Vara+de+Viol%C3%AAncia+Dom%C3%A9stica+e+Familiar+contra+a+Mulher+da+Comarca+de+Igarassu/@-7.8626344,-34.9451504,13.31z/data=!4m10!1m2!2m1!1sdelegacia+da+mulher+em+igarassu!3m6!1s0x7ab6b1c4e570d89:0x8508c468b3e7fb0d!8m2!3d-7.826562!4d-34.9095895!15sCh9kZWxlZ2FjaWEgZGEgbXVsaGVyIGVtIGlnYXJhc3N1WiEiH2RlbGVnYWNpYSBkYSBtdWxoZXIgZW0gaWdhcmFzc3WSARl3b21lbnNfcHJvdGVjdGlvbl9zZXJ2aWNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIxY2w5aFgzZFJSUkFC4AEA!16s%2Fg%2F11b6xdnccl?entry=ttu');
     }
   }
 

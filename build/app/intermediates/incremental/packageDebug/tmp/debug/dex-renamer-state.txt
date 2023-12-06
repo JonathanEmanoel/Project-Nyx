@@ -1,4 +1,4 @@
-#Tue Dec 05 03:14:24 BRT 2023
+#Wed Dec 06 16:41:16 BRT 2023
 base.0=C\:\\Users\\jpnathan\\Documents\\projetos meus\\Project-Nyx\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 base.1=C\:\\Users\\jpnathan\\Documents\\projetos meus\\Project-Nyx\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 base.2=C\:\\Users\\jpnathan\\Documents\\projetos meus\\Project-Nyx\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex

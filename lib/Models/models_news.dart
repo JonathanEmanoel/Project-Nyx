@@ -1,15 +1,13 @@
-class News {
-  String title;
-  String descrition;
-  String imagePath;
-  
-  News({
-    required this.title,
-    required this.descrition,
-    required this.imagePath,
-  });
+class Noticia {
+  final String titulo;
+  final String descricao;
+  final String imagemUrl;
+  final String link;
 
-  String get _title => title;
-  String get _descrition => descrition;
-  String get _imagePath => imagePath;
+  Noticia({
+    required this.titulo,
+    required this.descricao,
+    required this.imagemUrl,
+    required this.link,
+  });
 }

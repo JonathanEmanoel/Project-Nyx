@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:5:3-24:17
+INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:6:5-41:19
 MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:19
 MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:19
 MERGED from [:firebase_auth] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
@@ -68,11 +68,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jp
 	android:name
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
-MERGED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
+ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
+MERGED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
 MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:firebase_auth] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
@@ -144,22 +144,46 @@ INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:1-42:12
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:2:3-77
+ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:2:5-79
 	android:name
-		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:2:20-74
+		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:2:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:3:3-79
+ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:3:5-81
 	android:name
-		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:3:20-76
+		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:3:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\jpnathan\.gradle\caches\transforms-3\a67ee94e09c2e64da72e5c9dc1400fe1\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\jpnathan\.gradle\caches\transforms-3\a67ee94e09c2e64da72e5c9dc1400fe1\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\220356c42f0d2807ff295c5e867a6717\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\220356c42f0d2807ff295c5e867a6717\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\024ddff1a0345ac914ee9673a85f6efa\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\024ddff1a0345ac914ee9673a85f6efa\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\b8bd50a840b63f68c92db2008da4efa1\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\b8bd50a840b63f68c92db2008da4efa1\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\e3696e9f5fd018ef67a83cc7dede432f\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\e3696e9f5fd018ef67a83cc7dede432f\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\jpnathan\.gradle\caches\transforms-3\3ed458108fbd69ced1e2054ebc5e875f\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\jpnathan\.gradle\caches\transforms-3\3ed458108fbd69ced1e2054ebc5e875f\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\10573cd3896b16f5dcfdc7ca46129976\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\10573cd3896b16f5dcfdc7ca46129976\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\77c32794c660bd283d13b7797f066a53\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\77c32794c660bd283d13b7797f066a53\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-sdk
 INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml
@@ -296,28 +320,6 @@ INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\
 	android:minSdkVersion
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
-MERGED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\jpnathan\.gradle\caches\transforms-3\a67ee94e09c2e64da72e5c9dc1400fe1\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\jpnathan\.gradle\caches\transforms-3\a67ee94e09c2e64da72e5c9dc1400fe1\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\220356c42f0d2807ff295c5e867a6717\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\220356c42f0d2807ff295c5e867a6717\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\024ddff1a0345ac914ee9673a85f6efa\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\024ddff1a0345ac914ee9673a85f6efa\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\b8bd50a840b63f68c92db2008da4efa1\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\b8bd50a840b63f68c92db2008da4efa1\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\e3696e9f5fd018ef67a83cc7dede432f\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\e3696e9f5fd018ef67a83cc7dede432f\transformed\jetified-play-services-measurement-impl-21.5.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\jpnathan\.gradle\caches\transforms-3\3ed458108fbd69ced1e2054ebc5e875f\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\jpnathan\.gradle\caches\transforms-3\3ed458108fbd69ced1e2054ebc5e875f\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\10573cd3896b16f5dcfdc7ca46129976\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\jpnathan\.gradle\caches\transforms-3\10573cd3896b16f5dcfdc7ca46129976\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\77c32794c660bd283d13b7797f066a53\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\jpnathan\.gradle\caches\transforms-3\77c32794c660bd283d13b7797f066a53\transformed\jetified-play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:firebase_analytics] C:\Users\jpnathan\Documents\projetos meus\Project-Nyx\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\jpnathan\.gradle\caches\transforms-3\a67ee94e09c2e64da72e5c9dc1400fe1\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79

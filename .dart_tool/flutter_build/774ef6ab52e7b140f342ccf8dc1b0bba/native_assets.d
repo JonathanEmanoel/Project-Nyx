@@ -1,0 +1,1 @@
+ C:\\Users\\jpnathan\\Documents\\projetos\ meus\\Project-Nyx\\.dart_tool\\flutter_build\\774ef6ab52e7b140f342ccf8dc1b0bba\\native_assets.yaml: 
