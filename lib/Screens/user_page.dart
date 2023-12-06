@@ -117,11 +117,17 @@ class _UserState extends State<User> {
           ),
         ],
       ),
-      extendBodyBehindAppBar: true, 
+      extendBodyBehindAppBar: true,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: ClipOval(
+      floatingActionButton: GestureDetector(
+        onDoubleTap: () {
+          Navigator.pushNamed(context, '/new');
+        },
+        onLongPress: () {
+          sendWhatsapp();
+        },
+        child: FloatingActionButton(
+          onPressed: () {},
           child: Image.asset(
             "assets/images/logoR.png",
             width: 1500.0,
@@ -135,7 +141,6 @@ class _UserState extends State<User> {
         notchMargin: 10.0,
         clipBehavior: Clip.antiAlias,
         color: Colors.black,
-        elevation: 0,
         height: 50,
         child: Container(
           padding: const EdgeInsets.only(bottom: 0.0),
@@ -143,21 +148,19 @@ class _UserState extends State<User> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               IconButton(
-                icon: const Icon(Icons.home, color: Colors.grey),
+                icon: const Icon(Icons.home, color: Colors.white),
                 iconSize: 30.0,
-                onPressed: () {
-                  Navigator.of(context).pushNamed(
-                    '/home1',
-                  );
-                },
+                onPressed: () {},
               ),
               IconButton(
                 icon: const Icon(
                   Icons.location_on,
                   color: Colors.grey,
                 ),
-                iconSize: 35.0,
-                onPressed: () {},
+                iconSize: 30.0,
+                onPressed: () {
+                  Navigator.pushNamed(context, '/map');
+                },
               ),
               const SizedBox(width: 24.0),
               IconButton(
@@ -173,7 +176,7 @@ class _UserState extends State<User> {
               IconButton(
                 icon: const Icon(
                   Icons.person,
-                  color: Colors.white,
+                  color: Colors.grey,
                 ),
                 iconSize: 30.0,
                 onPressed: () {},
@@ -181,6 +184,7 @@ class _UserState extends State<User> {
             ],
           ),
         ),
+      
       ),
     );
   }
